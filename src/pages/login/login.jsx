@@ -11,15 +11,15 @@ const Login = () => {
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
               Porttitor massa id neque aliquam vestibulum morbi.
             </p>
-            <span>dont you have an account?</span>
-            <button>register</button>
+            <span>Don't have an account?</span>
+            <button>Register</button>
           </div>
           <div className="right">
             <h1>Login</h1>
             <form>
                 <input type="text" placeholder="username" />
                 <input type="password" placeholder="password" />
-                <button>login</button>
+                <button>Login</button>
             </form>
           </div>
         </div>
