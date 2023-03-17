@@ -1,8 +1,8 @@
 import './profile.scss';
 
-export const profile = () => {
+export const Profile = () => {
   return (
     <div className='profile'>profile</div>
   )
 }
-export default profile;
+export default Profile;
