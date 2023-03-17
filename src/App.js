@@ -12,9 +12,10 @@ import Rightbar from "./components/rightbar/Rightbar";
 import Leftbar from "./components/leftbar/Leftbar";
 import Home from "./pages/home/Home";
 import Profile from "./pages/profile/Profile";
+import { Search } from "@mui/icons-material";
 
 function App() {
-  const currentUser = false;
+  const currentUser = true;
 
   const Layout = () => {
     return (
