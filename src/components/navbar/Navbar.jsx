@@ -11,10 +11,10 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
-    <div className="NavBar">
+    <div className="navbar">
       <div className="left">
         <Link to="/" style={{ textDecoration: "none" }}>
-          <span>naples social</span>
+          <span>NaplesSocial</span>
         </Link>
         <HomeIcon />
         <DarkModeIcon />
