@@ -37,12 +37,6 @@ export const Profile = () => {
             <a href="http://facebook.com">
               <TwitterIcon fontSize="large" />
             </a>
-            <a href="http://facebook.com">
-              <LinkedInIcon fontSize="large" />
-            </a>
-            <a href="http://facebook.com">
-              <PinterestIcon fontSize="large" />
-            </a>
           </div>
           <div className="center">
             <span>Jane Doe</span>
@@ -63,9 +57,8 @@ export const Profile = () => {
             <MoreVertIcon />
           </div>
         </div>
-         <Posts />
+        <Posts />
       </div>
-     
     </div>
   );
 };

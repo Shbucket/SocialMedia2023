@@ -5,7 +5,7 @@ import {
   RouterProvider,
   Route,
   Outlet,
-  Navigate
+  Navigate,
 } from "react-router-dom";
 import { useContext } from "react";
 import Navbar from "./components/navbar/Navbar";
@@ -14,24 +14,23 @@ import Leftbar from "./components/leftbar/LeftBar";
 import Home from "./pages/home/home";
 import Profile from "./pages/profile/profile";
 import { Search } from "@mui/icons-material";
-import './style.scss';
+import "./style.scss";
 import { AuthContext } from "./context/authContext";
 import { DarkModeContext } from "./context/darkModeContext";
 
-
 function App() {
-  const { currentUser} = useContext(AuthContext);
+  const { currentUser } = useContext(AuthContext);
 
-  const {darkMode} = useContext(DarkModeContext)
+  const { darkMode } = useContext(DarkModeContext);
 
   const Layout = () => {
     return (
-      <div className={`theme-${darkMode ? 'dark': 'light'}`}>
+      <div className={`theme-${darkMode ? "dark" : "light"}`}>
         <Navbar />
         <div style={{ display: "flex" }}>
           <Leftbar />
           <div style={{ flex: 6 }}>
-          <Outlet />
+            <Outlet />
           </div>
           <Rightbar />
         </div>
