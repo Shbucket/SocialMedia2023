@@ -9,10 +9,10 @@ import {
 } from "react-router-dom";
 import { useContext } from "react";
 import Navbar from "./components/navbar/Navbar";
-import Rightbar from "./components/rightbar/Rightbar";
-import Leftbar from "./components/leftbar/Leftbar";
-import Home from "./pages/home/Home";
-import Profile from "./pages/profile/Profile";
+import Rightbar from "./components/rightbar/RightBar";
+import Leftbar from "./components/leftbar/LeftBar";
+import Home from "./pages/home/home";
+import Profile from "./pages/profile/profile";
 import { Search } from "@mui/icons-material";
 import './style.scss';
 import { AuthContext } from "./context/authContext";
